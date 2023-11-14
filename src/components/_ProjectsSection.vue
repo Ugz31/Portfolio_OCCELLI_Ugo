@@ -12,6 +12,9 @@
             <div class="card-content" v-else>
               <h2 class="title">Description :</h2>
               <p>{{ project.description }}</p>
+              <br>
+              <h2 class="title">Difficulté :</h2>
+              <p>{{ project.difficulté }}</p>
             </div>
             <footer class="card-footer">
               <a :href="project.git" class="card-footer-item" target="_blank">Voir sur GitHub</a>
@@ -35,6 +38,7 @@ export default {
           languages: 'React.js + Sass',
           git: 'https://github.com/Ugz31/Projet-N-6-KASA-OpenClassRoom',
           description: 'Projet de création d\'un site copie d\'Airbnb en React.js / Sass',
+          difficulté : 'Maitrise d\'un nouveau langage, compréhension des composants',
           showDescription: false,
         },
         {
@@ -43,6 +47,7 @@ export default {
           languages: 'Nodes.js + Express.js',
           git: 'https://github.com/Ugz31/P7_Backend_Mon_Vieux_Grimoire',
           description: 'Création de la partie API pour un site de notation de livre en Node.js / Express.js',
+          difficulté: 'Compréhension de la logique back-end',
           showDescription: false,
         },
       ],

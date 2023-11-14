@@ -40,6 +40,11 @@
           </div>
         </div>
       </div>
+      <br>
+      <h1 class="title has-text-centered">A propos de moi</h1>
+      <div class="apropos">
+        <p class="has-text-centered">Bonjour je m’appelle Ugo OCCELLI, je suis développeur web full Stack au sein de l'entreprise Okgo situé à Toulouse.</p>
+      </div>
     </div>
   </section>
 </template>
@@ -76,6 +81,20 @@ export default {
 }
 
 .card:hover {
+  transform: translateY(-5px);
+}
+
+.apropos {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background: #00d1b278;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.apropos:hover {
   transform: translateY(-5px);
 }
 </style>
