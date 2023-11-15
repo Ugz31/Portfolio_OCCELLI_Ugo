@@ -4,6 +4,6 @@ module.exports = defineConfig({
 })
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/Portofolio_OCCELLI_Ugo/' // Remplacez 'mon-repo-name' par le nom de votre repository GitHub.
+    ? '/Portfolio_OCCELLI_Ugo/' // Remplacez 'mon-repo-name' par le nom de votre repository GitHub.
     : '/'
 }
